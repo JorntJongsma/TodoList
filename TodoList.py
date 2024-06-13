@@ -11,6 +11,8 @@ class Todolis():
     lastkey = list(r.keys())[-1]
     id = itertools.count(int(lastkey)+1)
 
+    # auto update
+
     def __init__(self, name, end_date,priority ):
         self.id =  next(self.id)
         self.name = name
